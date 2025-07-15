@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import HeroSection from './HeroSection';
 
 const UploadForm = () => {
   const [image, setImage] = useState(null);
@@ -116,6 +117,7 @@ const UploadForm = () => {
   return (
     <div className="container my-5">
       <h2 className="mb-4 text-center">🧰 Brand-Snap Image Transformer</h2>
+      <HeroSection/>
 
       <div className="card shadow p-4 mb-4">
         <input
